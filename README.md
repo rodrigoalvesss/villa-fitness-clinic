@@ -4,6 +4,8 @@
 
 Website oficial da **VILLA Fitness Clinic**, ginásio de treino personalizado localizado no centro de Vila Verde.
 
+**Website:** [villa-fitness-clinic.vercel.app](https://villa-fitness-clinic.vercel.app)
+
 O projeto apresenta o espaço, os serviços e o método de acompanhamento da VILLA através de uma experiência editorial, minimalista e responsiva, com uma identidade visual predominantemente preta e branca.
 
 ![Pré-visualização da VILLA Fitness Clinic](public/og.png)
@@ -122,7 +124,7 @@ Esta validação é executada em cada alteração enviada para `main` e em cada 
 
 ## Publicação
 
-O projeto utiliza uma estrutura Next.js padrão e pode ser publicado diretamente em plataformas compatíveis, como a Vercel. A opção recomendada é ligar este repositório ao serviço de alojamento para obter publicações automáticas após cada atualização do ramo `main`.
+O website está publicado na Vercel e ligado a este repositório. Cada atualização validada e enviada para o ramo `main` inicia automaticamente uma nova publicação.
 
 Na plataforma de alojamento, a variável `NEXT_PUBLIC_SITE_URL` deve receber o endereço público completo do website. A associação de um domínio próprio pode ser realizada depois da primeira publicação.
 
