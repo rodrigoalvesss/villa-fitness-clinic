@@ -1,0 +1,226 @@
+@media (max-width: 780px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .section-space {
+    padding-block: 76px;
+  }
+
+  .button {
+    min-height: 58px;
+  }
+
+  .inline-link {
+    min-height: 44px;
+  }
+
+  .home-hero-content {
+    padding: 52px 20px 42px;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(3.15rem, 13.4vw, 4.3rem);
+    margin-top: 32px;
+  }
+
+  .home-hero-bottom {
+    gap: 26px;
+    margin-top: 28px;
+  }
+
+  .home-hero-bottom p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .home-hero-actions {
+    gap: 17px;
+    width: 100%;
+  }
+
+  .hero-contact-link {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .home-hero-media {
+    height: 43svh;
+  }
+
+  .home-intro-main,
+  .story-lead,
+  .space-story > div:last-child,
+  .contact-option-grid {
+    margin-top: 46px;
+  }
+
+  .home-intro-copy {
+    gap: 30px;
+    margin-top: 42px;
+  }
+
+  .home-services {
+    padding-bottom: 76px;
+  }
+
+  .page-hero-copy {
+    min-height: 52svh;
+    padding: 54px 0 36px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(2.8rem, 11.6vw, 4rem);
+    margin-top: 36px;
+    max-width: 100%;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .page-hero-intro {
+    margin-top: 28px;
+  }
+
+  .page-hero-index {
+    padding-top: 32px;
+  }
+
+  .page-hero-media {
+    min-height: 42svh;
+  }
+
+  .service-anchor-nav {
+    display: flex;
+    grid-template-columns: none;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    position: sticky;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    top: 74px;
+  }
+
+  .service-anchor-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .service-anchor-nav a {
+    border-bottom: 0;
+    border-right: 1px solid var(--line);
+    flex: 0 0 auto;
+    min-height: 52px;
+    padding: 16px 20px;
+    scroll-snap-align: start;
+    white-space: nowrap;
+  }
+
+  .service-detail-heading h2,
+  .process-heading h2,
+  .faq-heading h2 {
+    margin-top: 42px;
+  }
+
+  .service-detail-media {
+    margin-top: 48px;
+  }
+
+  .pilates-copy {
+    padding: 70px 20px 78px;
+  }
+
+  .process-list {
+    margin-top: 48px;
+  }
+
+  .space-values article {
+    min-height: 220px;
+    padding-block: 38px;
+  }
+
+  .gallery-heading {
+    gap: 32px;
+  }
+
+  .masonry-grid {
+    margin-top: 48px;
+  }
+
+  .location-statement {
+    align-items: stretch;
+    overflow: hidden;
+    padding: 76px 20px;
+  }
+
+  .location-statement > div {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .location-statement h2 {
+    font-size: clamp(2.7rem, 10.8vw, 3.4rem);
+    line-height: 0.99;
+    max-width: 100%;
+  }
+
+  .location-statement-image {
+    margin-top: 42px;
+  }
+
+  .contact-option-grid > a {
+    min-height: 112px;
+  }
+
+  .visit-map {
+    min-height: 58svh;
+  }
+
+  .visit-details {
+    padding: 70px 20px 78px;
+  }
+
+  .contact-final > div:last-child {
+    margin-top: 44px;
+  }
+
+  .editorial-cta {
+    padding: 74px 20px;
+  }
+
+  .editorial-cta-action {
+    margin-top: 48px;
+  }
+
+  .global-footer {
+    padding: 22px 20px;
+  }
+
+  .footer-compact {
+    align-items: start;
+    display: grid;
+    gap: 8px;
+  }
+
+  .footer-compact p:last-child {
+    text-align: left;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-hero h1 {
+    font-size: 3rem;
+  }
+
+  .page-hero h1 {
+    font-size: 2.7rem;
+  }
+
+  .location-statement h2 {
+    font-size: 2.55rem;
+  }
+}
