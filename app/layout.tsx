@@ -8,7 +8,7 @@ import "./mobile.css";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
-  "https://villa-fitness.vercel.app";
+  "https://villa-fitness-clinic.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

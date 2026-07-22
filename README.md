@@ -4,7 +4,7 @@
 
 Website oficial da **VILLA Fitness Clinic**, ginásio de treino personalizado localizado no centro de Vila Verde.
 
-**Website:** [villa-fitness-clinic.vercel.app](https://villa-fitness.vercel.app)
+**Website:** [villa-fitness-clinic.vercel.app](https://villa-fitness-clinic.vercel.app)
 
 O projeto apresenta o espaço, os serviços e o método de acompanhamento da VILLA através de uma experiência editorial, minimalista e responsiva, com uma identidade visual predominantemente preta e branca.
 
